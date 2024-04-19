@@ -1,0 +1,54 @@
+/* Resetting default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../Downloads/pigs-scaled\,background\ pics.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(201, 69, 69);
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Corrected width */
+}
+
